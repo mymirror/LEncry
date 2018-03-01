@@ -90,7 +90,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-    s.source_files  = "LEncry/LEncry/LEncry.h","LEncry/LEncry/LEncry.m", "LEncry/LEncry/DDRSAWrapper/*.{h,m}"
+    s.source_files  = "LEncry/LEncry/**"
 
   #s.public_header_files = "LEncry/LEncry/OpenSSL/opensslIncludes/openssl/*{.h}"
 
@@ -106,7 +106,7 @@ Pod::Spec.new do |s|
   # s.resource  = "icon.png"
   # s.resources = "Resources/*.png"
 
-   s.preserve_paths = "LEncry/LEncry/OpenSSL/opensslIncludes/openssl/*{.h}","LEncry/LEncry/OpenSSL/LICENSE"
+  # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
 
   # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
