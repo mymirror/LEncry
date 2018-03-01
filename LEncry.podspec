@@ -132,7 +132,7 @@ Pod::Spec.new do |s|
 
   s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SRCROOT)/LEncry/LEncry/OpenSSL/opensslIncludes/openssl/*" }
   # s.dependency "JSONKit", "~> 1.4"
- s.vendored_libraries = "LEncry/LEncry/OpenSSL/lib/.{a}"
+ s.vendored_libraries = "$(PROJECT_DIR)/LEncry/LEncry/OpenSSL/lib/*.{a}"
 
 
 
