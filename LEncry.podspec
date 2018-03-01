@@ -90,7 +90,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "LEncry/LEncry/LEncry.h","LEncry/LEncry/LEncry.m", "LEncry/LEncry/DDRSAWrapper/*.{h,m}","LEncry/LEncry/OpenSSL/opensslIncludes/**"
+  s.source_files  = "LEncry/LEncry/LEncry.h","LEncry/LEncry/LEncry.m", "LEncry/LEncry/DDRSAWrapper/*.{h,m}"
 
   #s.public_header_files = "LEncry/LEncry/OpenSSL/opensslIncludes/openssl/*{.h}"
 
@@ -130,9 +130,9 @@ Pod::Spec.new do |s|
 
     s.requires_arc = true
 
-# s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SRCROOT)/LEncry/LEncry/OpenSSL/opensslIncludes/openssl/rsa.h" }
+  s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SRCROOT)/LEncry/LEncry/OpenSSL/opensslIncludes/openssl/*" }
   # s.dependency "JSONKit", "~> 1.4"
-    s.vendored_libraries = "LEncry/LEncry/OpenSSL/lib/libcrypto.a","LEncry/LEncry/OpenSSL/lib/libssl.a"
+ s.vendored_libraries = "LEncry/LEncry/OpenSSL/lib/.{a}"
 
 
 
