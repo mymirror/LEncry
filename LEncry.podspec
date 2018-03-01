@@ -92,7 +92,7 @@ Pod::Spec.new do |s|
 
   s.source_files  = "LEncry/LEncry/LEncry.h","LEncry/LEncry/LEncry.m", "LEncry/LEncry/DDRSAWrapper/*.{h,m}"
 
-  s.public_header_files = "LEncry/LEncry/OpenSSL/opensslIncludes/openssl/*{.h}"
+  #s.public_header_files = "LEncry/LEncry/OpenSSL/opensslIncludes/openssl/*{.h}"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -130,7 +130,7 @@ Pod::Spec.new do |s|
 
     s.requires_arc = true
 
-  # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
+    s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SRCROOT)/LEncry/LEncry/OpenSSL/opensslIncludes/openssl/rsa.h" }
   # s.dependency "JSONKit", "~> 1.4"
 
 end
