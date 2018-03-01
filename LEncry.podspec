@@ -106,7 +106,7 @@ Pod::Spec.new do |s|
   # s.resource  = "icon.png"
   # s.resources = "Resources/*.png"
 
-   s.preserve_paths = "LEncry/LEncry/OpenSSL/opensslIncludes/openssl/*{.h}"
+   s.preserve_paths = "LEncry/LEncry/OpenSSL/opensslIncludes/openssl/*{.h}","LEncry/LEncry/OpenSSL/LICENSE"
 
 
   # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
