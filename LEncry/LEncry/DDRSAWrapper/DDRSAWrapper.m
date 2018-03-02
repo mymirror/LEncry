@@ -2,8 +2,6 @@
 
 #import "DDRSAWrapper.h"
 #import <CommonCrypto/CommonCrypto.h>
-#import <openssl/rsa.h>
-
 #import <openssl/pem.h>
 
 @implementation DDRSAWrapper
