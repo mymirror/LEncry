@@ -1,6 +1,6 @@
 
 #import <Foundation/Foundation.h>
-#import <openssl/rsa.h>
+#include "rsa.h"
 
 @interface DDRSAWrapper : NSObject
 #pragma mark - openssl
