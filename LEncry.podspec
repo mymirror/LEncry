@@ -24,9 +24,8 @@ Pod::Spec.new do |s|
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  s.description  = <<-DESC
-                 LEncry can AES and RSA with md5 and so on,we can deal data with encry operate
-                   DESC
+  s.description  = "LEncry can AES and RSA with md5 and so on,we can deal data with encry operate"
+
 
   s.homepage     = "https://github.com/mymirror/LEncry"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
@@ -90,9 +89,9 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-    s.source_files  = "LEncry/LEncry/LEncry.h","LEncry/LEncry/LEncry.m", "LEncry/LEncry/DDRSAWrapper/*.{h,m}"
+   s.source_files  = "LEncry/LEncry/LEncry.h","LEncry/LEncry/LEncry.m", "LEncry/LEncry/**/*.{h,m}"
 
-  #s.public_header_files = "LEncry/LEncry/OpenSSL/opensslIncludes/openssl/*{.h}"
+   s.public_header_files = "LEncry/LEncry/OpenSSL/opensslIncludes/openssl/*{.h}"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
