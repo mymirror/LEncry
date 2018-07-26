@@ -91,7 +91,7 @@ Pod::Spec.new do |s|
 
    s.source_files  = "LEncry/LEncry/LEncry.h","LEncry/LEncry/LEncry.m", "LEncry/LEncry/**/*.{h,m}"
 
-   s.public_header_files = "LEncry/LEncry/OpenSSL/opensslIncludes/openssl/*{.h}"
+   s.public_header_files = "LEncry/LEncry/OpenSSL/opensslIncludes/openssl/*.{h}"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -129,7 +129,7 @@ Pod::Spec.new do |s|
 
     s.requires_arc = true
 
-    s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SRCROOT)/LEncry/LEncry/OpenSSL/opensslIncludes/openssl","LIBRARY_SEARCH_PATHS" => "$(PROJECT_DIR)/LEncry/LEncry/OpenSSL/lib" }
+s.xcconfig = { "HEADER_SEARCH_PATHS" => "LEncry/LEncry/OpenSSL/opensslIncludes/openssl/*.{h}"}
   # s.dependency "JSONKit", "~> 1.4"
     s.vendored_libraries = "LEncry/LEncry/OpenSSL/lib/libcrypto.a","LEncry/LEncry/OpenSSL/lib/libssl.a"
 
