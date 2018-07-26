@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "LEncry"
-  s.version      = "0.0.3"
+  s.version      = "0.0.4"
   s.summary      = "LEncry can AES and RSA with md5 and so on"
 
   s.description  = <<-DESC
