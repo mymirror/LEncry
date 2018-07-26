@@ -78,7 +78,7 @@ Pod::Spec.new do |s|
 
     s.requires_arc = true
 
-s.xcconfig = { "HEADER_SEARCH_PATHS" => "${PODS_ROOT}/LEncry/LEncry/OpenSSL/opensslIncludes/openssl/rsa"}
+s.xcconfig = { "HEADER_SEARCH_PATHS" => "${PODS_ROOT}/LEncry/LEncry/OpenSSL/opensslIncludes/openssl"}
   # s.dependency "JSONKit", "~> 1.4"
     s.vendored_libraries = "LEncry/LEncry/OpenSSL/lib/libcrypto.a","LEncry/LEncry/OpenSSL/lib/libssl.a"
 
