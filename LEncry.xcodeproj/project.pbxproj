@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		35B046C2218C2937008F5D7F /* BSNoCopyTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B046B7218C2937008F5D7F /* BSNoCopyTextField.m */; };
+		35B046C3218C2937008F5D7F /* BSAlterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B046B8218C2937008F5D7F /* BSAlterView.m */; };
+		35B046C4218C2937008F5D7F /* BSCodeInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B046BA218C2937008F5D7F /* BSCodeInputView.m */; };
+		35B046C5218C2937008F5D7F /* CountDownTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B046BD218C2937008F5D7F /* CountDownTimer.m */; };
+		35B046C6218C2937008F5D7F /* BSClickView.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B046BF218C2937008F5D7F /* BSClickView.m */; };
+		35B046C7218C2937008F5D7F /* BSGradientButtom.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B046C0218C2937008F5D7F /* BSGradientButtom.m */; };
 		35EA795D2047D98B007266E1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 35EA795C2047D98B007266E1 /* AppDelegate.m */; };
 		35EA79602047D98B007266E1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35EA795F2047D98B007266E1 /* ViewController.m */; };
 		35EA79632047D98B007266E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35EA79612047D98B007266E1 /* Main.storyboard */; };
@@ -25,6 +31,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		35B046B6218C2937008F5D7F /* CountDownTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountDownTimer.h; sourceTree = "<group>"; };
+		35B046B7218C2937008F5D7F /* BSNoCopyTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSNoCopyTextField.m; sourceTree = "<group>"; };
+		35B046B8218C2937008F5D7F /* BSAlterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSAlterView.m; sourceTree = "<group>"; };
+		35B046B9218C2937008F5D7F /* BSClickView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSClickView.h; sourceTree = "<group>"; };
+		35B046BA218C2937008F5D7F /* BSCodeInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSCodeInputView.m; sourceTree = "<group>"; };
+		35B046BB218C2937008F5D7F /* BSGradientButtom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSGradientButtom.h; sourceTree = "<group>"; };
+		35B046BC218C2937008F5D7F /* BSNoCopyTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSNoCopyTextField.h; sourceTree = "<group>"; };
+		35B046BD218C2937008F5D7F /* CountDownTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountDownTimer.m; sourceTree = "<group>"; };
+		35B046BE218C2937008F5D7F /* BSAlterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSAlterView.h; sourceTree = "<group>"; };
+		35B046BF218C2937008F5D7F /* BSClickView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSClickView.m; sourceTree = "<group>"; };
+		35B046C0218C2937008F5D7F /* BSGradientButtom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSGradientButtom.m; sourceTree = "<group>"; };
+		35B046C1218C2937008F5D7F /* BSCodeInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSCodeInputView.h; sourceTree = "<group>"; };
 		35EA79582047D98B007266E1 /* LEncry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LEncry.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		35EA795B2047D98B007266E1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		35EA795C2047D98B007266E1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -139,6 +157,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		35B046B5218C2937008F5D7F /* inheritClass */ = {
+			isa = PBXGroup;
+			children = (
+				35B046B6218C2937008F5D7F /* CountDownTimer.h */,
+				35B046B7218C2937008F5D7F /* BSNoCopyTextField.m */,
+				35B046B8218C2937008F5D7F /* BSAlterView.m */,
+				35B046B9218C2937008F5D7F /* BSClickView.h */,
+				35B046BA218C2937008F5D7F /* BSCodeInputView.m */,
+				35B046BB218C2937008F5D7F /* BSGradientButtom.h */,
+				35B046BC218C2937008F5D7F /* BSNoCopyTextField.h */,
+				35B046BD218C2937008F5D7F /* CountDownTimer.m */,
+				35B046BE218C2937008F5D7F /* BSAlterView.h */,
+				35B046BF218C2937008F5D7F /* BSClickView.m */,
+				35B046C0218C2937008F5D7F /* BSGradientButtom.m */,
+				35B046C1218C2937008F5D7F /* BSCodeInputView.h */,
+			);
+			path = inheritClass;
+			sourceTree = "<group>";
+		};
 		35EA794F2047D98B007266E1 = {
 			isa = PBXGroup;
 			children = (
@@ -160,6 +197,7 @@
 		35EA795A2047D98B007266E1 /* LEncry */ = {
 			isa = PBXGroup;
 			children = (
+				35B046B5218C2937008F5D7F /* inheritClass */,
 				35EA795B2047D98B007266E1 /* AppDelegate.h */,
 				35EA795C2047D98B007266E1 /* AppDelegate.m */,
 				35EA795E2047D98B007266E1 /* ViewController.h */,
@@ -454,9 +492,15 @@
 			files = (
 				35EA79D02047DA1F007266E1 /* DDRSAWrapper.m in Sources */,
 				35EA79602047D98B007266E1 /* ViewController.m in Sources */,
+				35B046C6218C2937008F5D7F /* BSClickView.m in Sources */,
+				35B046C3218C2937008F5D7F /* BSAlterView.m in Sources */,
+				35B046C2218C2937008F5D7F /* BSNoCopyTextField.m in Sources */,
 				35EA796B2047D98B007266E1 /* main.m in Sources */,
 				35EA79D32047DDAB007266E1 /* LEncry.m in Sources */,
 				35EA795D2047D98B007266E1 /* AppDelegate.m in Sources */,
+				35B046C5218C2937008F5D7F /* CountDownTimer.m in Sources */,
+				35B046C7218C2937008F5D7F /* BSGradientButtom.m in Sources */,
+				35B046C4218C2937008F5D7F /* BSCodeInputView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
